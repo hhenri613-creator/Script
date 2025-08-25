@@ -1,8 +1,1 @@
--- MxrsGUI.lua (to be hosted as raw on GitHub)
-local p=game.Players.LocalPlayer
-local g=Instance.new("ScreenGui",p:WaitForChild("PlayerGui"));g.Name="MxrsGUI"
-local f=Instance.new("Frame",g);f.Size=UDim2.new(0,400,0,300);f.Position=UDim2.new(0.5,-200,0.5,-150);f.BackgroundColor3=Color3.fromRGB(20,20,20);f.Visible=false
-local x=Instance.new("TextButton",f);x.Size=UDim2.new(0,30,0,30);x.Position=UDim2.new(1,-35,0,5);x.Text="X";x.BackgroundColor3=Color3.fromRGB(200,0,0);x.TextColor3=Color3.fromRGB(255,255,255);x.Font=Enum.Font.SourceSansBold;x.TextSize=20;x.MouseButton1Click:Connect(function()f.Visible=false end)
-local o=Instance.new("TextButton",g);o.Size=UDim2.new(0,100,0,40);o.Position=UDim2.new(1,-110,0,10);o.Text="ON";o.BackgroundColor3=Color3.fromRGB(0,200,0);o.TextColor3=Color3.fromRGB(255,255,255);o.Font=Enum.Font.SourceSansBold;o.TextSize=20;o.MouseButton1Click:Connect(function()f.Visible=not f.Visible end)
-local v=Instance.new("TextButton",f);v.Size=UDim2.new(0,200,0,50);v.Position=UDim2.new(0.5,-100,0.3,-25);v.Text="Run Vape Script";v.BackgroundColor3=Color3.fromRGB(0,0,200);v.TextColor3=Color3.fromRGB(255,255,255);v.Font=Enum.Font.SourceSansBold;v.TextSize=20;v.MouseButton1Click:Connect(function()pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua",true))()end)end)
-local a=Instance.new("TextButton",f);a.Size=UDim2.new(0,200,0,50);a.Position=UDim2.new(0.5,-100,0.6,-25);a.Text="Aimbot BF";a.BackgroundColor3=Color3.fromRGB(200,0,0);a.TextColor3=Color3.fromRGB(255,255,255);a.Font=Enum.Font.SourceSansBold;a.TextSize=20;a.MouseButton1Click:Connect(function()pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace",true))()end)end)
+
